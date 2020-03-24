@@ -1,5 +1,3 @@
-/************************ try ************************/
-
 // 문자열의 역순을 반환
 var rev = function(str){
     var b = '';
@@ -24,22 +22,8 @@ while(true){
 
 console.log(x);
 
+/*output
 
-/************************ book ************************/
+585
 
-String.prototype.reverse = function(){
-    return this.split("").reverse().join("");
-}
-
-var x = 11;
-while(true){
-    if(
-        x.toString() == x.toString().reverse()
-        && x.toString(8) == x.toString(8).reverse()
-        && x.toString(2) == x.toString(2).reverse()
-    ){
-        console.log(num);
-        break;
-    }
-    num += 2;
-}
+*/
